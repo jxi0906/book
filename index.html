@@ -1,0 +1,133 @@
+<!DOCTYPE>
+<!-- Student Name: Junhui Xie
+	 Student ID: 991338100 -->
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Assignment #2 - Junhui Xie</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		
+		<!-- include jquery mobile css into html -->
+		<link rel="stylesheet" href="css/jquery.mobile.css" />
+		<link rel="stylesheet" href="css/a2.css" />
+		<!-- include a customized theme into html -->
+		<link rel="stylesheet" href="css/xieju.css" />
+		
+		<!-- include jquery.js before jquery.mobile.js -->
+		<script src="js/jquery.js"></script>
+		<!-- include jquery.mobile.js into html -->
+		<script src="js/jquery.mobile.js"></script>
+		<script src="js/myscript.js"></script>
+	</head>
+	<body>
+		<!-- include the customized theme 'a' to render this site -->
+		<div data-role="page" data-theme="a" id="home">
+			<!-- create header section to include the site title -->
+			<header data-role="header">
+				<h1 class="ui-title"></h1>
+			</header>
+			<section class="ui-content" role="main">
+				<!-- include a navigation bar -->
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#home" class="ui-btn ui-icon-home">Home</a></li>
+						<li><a href="#book" class="ui-btn ui-icon-gear">
+								<span class="book0"></span>
+							</a>
+						</li>
+						<li><a href="#book" class="ui-btn ui-icon-gear">
+								<span class="book1"></span>
+							</a>
+						</li>
+						<li><a href="#book" class="ui-btn ui-icon-gear">
+								<span class="book2"></span>
+							</a>
+						</li>
+						<li><a href="#book" class="ui-btn ui-icon-gear">
+								<span class="book3"></span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- create jQuery Mobile layout to place 4 books -->
+				<section class="ui-grid-a">
+					<div class="ui-block-a" id="b0" value="0"></div>
+					<div class="ui-block-b" id="b1" value="1"></div>
+				</section>
+				<section class="ui-grid-a">
+					<div class="ui-block-a" id="b2" value="2"></div>
+					<div class="ui-block-b" id="b3" value="3"></div>
+				</section>
+			</section>
+			<!-- include a footer section to store student information -->
+			<footer data-role="footer">
+				<section class="footer"></section>
+			</footer>
+		</div> <!-- end of home page -->
+		
+		<!-- begin of individual book page -->
+		<div data-role="page" id="book" data-theme="a">
+			<section class="ui-content" role="main">
+				<section class="ui-grid-a">
+					<!-- placeholder to store the book image and information -->
+					<div class="ui-block-a" id="img"></div>
+					<div class="ui-block-b" id="info"></div>
+				</section>
+				<!-- put 2 buttons into a controlgroup -->
+				<section data-role="controlgroup" data-type="horizontal" style="text-align:center;">
+					<a href="http://indigo.ca" class="ui-btn ui-icon-indigo ui-btn-icon-notext" 
+						target="_blank"></a>
+					<a href="#popup" class="ui-btn ui-icon-info ui-btn-icon-notext" 
+						data-rel="dialog" data-transition="pop"></a>
+				</section>
+			</section>
+			<footer data-role="footer">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#home" class="ui-btn ui-icon-home">Home</a></li>
+						<li><a href="#book" class="ui-btn ui-icon-gear">
+								<span class="book0"></span>
+							</a>
+						</li>
+						<li><a href="#book" class="ui-btn ui-icon-gear">
+								<span class="book1"></span>
+							</a>
+						</li>
+						<li><a href="#book" class="ui-btn ui-icon-gear">
+								<span class="book2"></span>
+							</a>
+						</li>
+						<li><a href="#book" class="ui-btn ui-icon-gear">
+								<span class="book3"></span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<section class="footer"></section>
+			</footer>
+		</div> <!-- end of individual page -->
+		
+		<!-- popup page -->
+		<div data-role="page" id="popup">
+			<header data-role="header" data-theme="a">
+				<h2>Personal Review</h2>
+			</header>	
+			<div class="ui-content" role="main" data-theme="a">	
+				<p>This is a very useful and helpful book, you can easily and concisely understand the author's intention of writing this book.</p>
+				<!-- include a button to home page -->
+				<p>
+					<a href="#home" class="ui-btn ui-icon-back ui-btn-icon-top">Home Page</a>
+				</p>	
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- Student Name: Junhui Xie
+	 Student ID: 991338100 -->
+
+<xieju>
+	<!-- title node -->
+	<siteTitle>Recommended Books</siteTitle>
+	<studentName studentNumber="991338100" program="Computer Systems Technology - Systems Analyst">
+		Junhui Xie
+	</studentName>
+	<!-- book node -->
+	<book>
+		<!-- https://www.chapters.indigo.ca/en-ca/books/smarter-faster-better/9780385680912-item.html -->
+		<name image="Smarter Faster Better.jpg">Faster Better</name>
+		<description type="Business and Finance">From the bestselling author of The Power of Habit comes a fascinating new book exploring the science of productivity, and why, in today's world, managing how you think--rather than what you think about--can transform your life.</description>
+		<authorName>Charles Duhigg</authorName>
+		<publisherName>Doubleday Canada</publisherName>
+		<currentPrice>$35.00</currentPrice>
+	</book>
+	<book>
+		<!-- https://www.chapters.indigo.ca/en-ca/books/why-not-me/9780804138147-item.html -->
+		<name image="Why Not Me.jpg">Why Not Me?</name>
+		<description type="Humour">From the author of the beloved New York Times bestselling book Is Everyone Hanging Out Without Me? and the creator and star of The Mindy Project comes a collection of essays that are as hilarious and insightful as they are deeply personal.</description>
+		<authorName>Mindy Kaling</authorName>
+		<publisherName>Crown/Archetype</publisherName>
+		<currentPrice>$32.00</currentPrice>
+	</book>
+	<book>
+		<!-- https://www.chapters.indigo.ca/en-ca/books/the-nest/9781443445238-item.html -->
+		<name image="The Nest.jpg">The Nest</name>
+		<description type="Fiction and Literature">A wickedly smart, funny and deeply felt debut novel about four adult siblings and the fate of their long depended-upon family inheritance.</description>
+		<authorName>Cynthia D'aprix Sweeney</authorName>
+		<publisherName>HarperCollins Publishers Ltd.</publisherName>
+		<currentPrice>$22.99</currentPrice>
+	</book>
+	<book>
+		<!-- https://www.chapters.indigo.ca/en-ca/books/zero-to-one-notes-on/9780804139298-item.html -->
+		<name image="Zero To One.jpg">Zero To One</name>
+		<description type="Business and Finance">Zero to One presents a new way of thinking about innovation: it starts by learning to ask the questions that lead you to find value in unexpected places.</description>
+		<authorName>Peter Thiel and Blake Masters</authorName>
+		<publisherName>The Crown Publishing Group</publisherName>
+		<currentPrice>$36.00</currentPrice>
+	</book>
+</xieju>

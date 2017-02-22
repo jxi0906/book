@@ -1,0 +1,29 @@
+/* 
+   Student Name: Junhui Xie
+   Student ID: 991338100
+   File Name: a2.css 
+*/
+
+.ui-icon-indigo:after
+{
+	background-image: url("images/indigo.jpg");
+	background-size: 25px 25px;
+}
+
+.ui-grid-a {
+	text-align: center;
+}
+
+
+.bookName {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+h1, p {
+	font-family: Arial;
+}
+
+#info {
+	text-align: left;
+}
